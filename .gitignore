@@ -13,6 +13,8 @@
 *.a
 
 # Visual Studio temp files
+Debug
+Release
 *.idb
 *.pdb
 *.pch
