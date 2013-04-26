@@ -1,0 +1,26 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Visual Studio temp files
+*.idb
+*.pdb
+*.pch
+*.obj
+*.aps
+*.ncb
+*.suo
+*.user
+*.htm
+*.manifest
+*.dep
