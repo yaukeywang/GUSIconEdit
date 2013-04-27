@@ -1,0 +1,249 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GUSIconEditExample.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\GUSIconEditExample.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 222, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 GUSIconEditExample"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "GUSIconEdit Example，1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Yaukey(yaukeywang@gmail.com) Copyright (C) 2013",IDC_STATIC,42,26,173,8
+    DEFPUSHBUTTON   "确定",IDOK,158,42,50,14,WS_GROUP
+END
+
+IDD_GUSICONEDITEXAMPLE_DIALOG DIALOGEX 0, 0, 379, 275
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "GUSIconEditExample"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LISTBOX,7,47,114,221,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_LISTCTRL,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,132,47,114,221
+    CONTROL         "",IDC_TREECTRL,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_BORDER | WS_HSCROLL | WS_TABSTOP,258,47,114,221
+    LTEXT           "This edit is create by the default parameters, and combined with a CLlistBox.",IDC_STATIC,7,7,113,23
+    EDITTEXT        IDC_EDIT1,7,33,114,12,ES_MULTILINE | ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_EDIT2,132,33,114,12,ES_MULTILINE | ES_AUTOHSCROLL | NOT WS_BORDER
+    LTEXT           "静态",IDC_LABEL_ALIGMENT,258,33,114,8
+    LTEXT           "This edit is changed by some parameters(color, sort, etc.), and combined with a CLlistCtrl.",IDC_STATIC,132,7,113,23
+    LTEXT           "This edit is create dynamically, and combined with a CTreeCtrl.",IDC_STATIC,259,7,113,23
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "Yaukey(yaukeywang@gmail.com)"
+            VALUE "FileDescription", "GUSIconEdit Example"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "GUSIconEditExample.exe"
+            VALUE "LegalCopyright", "Yaukey(yaukeywang@gmail.com) All Rights Reserved."
+            VALUE "OriginalFilename", "GUSIconEditExample.exe"
+            VALUE "ProductName", "GUSIconEdit Example"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+
+    IDD_GUSICONEDITEXAMPLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 372
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_GUS_ICON_EDIT_SKIN BITMAP                  "res\\GUSIconEditSkin.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_GUS_ICON_EDIT1 MENU 
+BEGIN
+    POPUP "SearchOption"
+    BEGIN
+        MENUITEM "Case Sense",                  ID_SEARCHOPTION_CASESENSE1
+        MENUITEM "Match Anywhere",              ID_SEARCHOPTION_MATCHANYWHERE1
+    END
+END
+
+IDR_MENU_GUS_ICON_EDIT2 MENU 
+BEGIN
+    POPUP "SearchOption"
+    BEGIN
+        MENUITEM "Case Sense",                  ID_SEARCHOPTION_CASESENSE2
+        MENUITEM "Match Anywhere",              ID_SEARCHOPTION_MATCHANYWHERE2
+    END
+END
+
+IDR_MENU_GUS_ICON_EDIT3 MENU 
+BEGIN
+    POPUP "SearchOption"
+    BEGIN
+        MENUITEM "Case Sense",                  ID_SEARCHOPTION_CASESENSE3
+        MENUITEM "Match Anywhere",              ID_SEARCHOPTION_MATCHANYWHERE3
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 GUSIconEditExample(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GUSIconEditExample.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
