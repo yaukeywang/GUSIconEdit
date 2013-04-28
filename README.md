@@ -27,5 +27,9 @@ include "GUSIconEdit.h" and start your work. You can get all the details in the 
 
 [Download from Hotfile.com](https://hotfile.com/dl/205300991/c706543/GUSIconEditExamplePrebuild.rar.html)
 
+## Issues
+
+<https://github.com/yaukeywang/GUSIconEdit/issues>
+
 ## Licence
 [The Code Project Open License (CPOL)](http://www.codeproject.com/info/cpol10.aspx)
