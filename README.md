@@ -9,10 +9,10 @@ A generally used iTunes style edit control for searching items in other controls
 
 ## Requirements
 
-*Windows only.
+* Windows only.
 * The pre-build example is based on Window7, but it works pretty good in my own project under WindowXP.
 * The example project is created by Visual Studio 2008.
-* You should know that the Edit control you used as GUSIconEdit must have a ES_MULTILINE style.
+* You should know that the Edit control you used as GUSIconEdit must have a ES_MULTILINE style as well as remove the WS_BORDER style.
 
 ## How to use
 
@@ -22,6 +22,10 @@ include "GUSIconEdit.h" and start your work. You can get all the details in the 
 ## Screenshot of example
 
 ![Screenshot of example](https://github.com/yaukeywang/GUSIconEdit/raw/master/Example/GUSIconEditExample.png)
+
+## Download pre-build example.
+
+[Download from Hotfile.com](https://hotfile.com/dl/205300991/c706543/GUSIconEditExamplePrebuild.rar.html)
 
 ## Licence
 [The Code Project Open License (CPOL)](http://www.codeproject.com/info/cpol10.aspx)
